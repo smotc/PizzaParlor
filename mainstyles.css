@@ -233,7 +233,11 @@ blockquote::after {
     text-align: center;
 }
 
-
+.pizzas:hover {
+    margin: 15px;
+    border: 15px solid white;
+    background-color: rgb(250, 217, 132);
+}
 
 
 /* Responsive */
@@ -278,12 +282,11 @@ blockquote::after {
     }
 
     .pizzas {
-        width: 80%; 
-display: inline-flex;
-flex-wrap: wrap;
-justify-content: center;
-}
-    
-
-    .pizzas img {
+        width: 80%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
+
+}
